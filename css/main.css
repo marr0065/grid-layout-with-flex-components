@@ -1,0 +1,63 @@
+/*
+ *   Copyright (c) 2025 
+ *   All rights reserved.
+ */
+ody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+    color: #222;
+  }
+  
+  .emoji {
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .emoji h2 {
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .emoji a {
+    text-decoration: none;
+    background-color: #781baa;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .icon {
+    font-size: 4rem;
+  }
+
+
+  .emojis {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+  }
+
+  .emoji { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    order: 1;
+    text-align: center;
+  }
+
+  .emoji h2 {
+    order: 2;
+  }
+
+  p {
+    order: 3;
+  }
+
+  .emoji a {
+   order: 4;
+  }
